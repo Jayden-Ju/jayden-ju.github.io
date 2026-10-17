@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#03071a" />
+<meta name="description" content="服务能力：网页制作、网站部署、安卓 APP 开发、苹果 APP 开发、微信小程序开发，全流程定制与上线交付。" />
+<title>我能为你提供什么 · 全品类软件定制开发</title>
+<link rel="stylesheet" href="assets/css/style.css?v=3" />
+<script>
+  /* 仅在脚本可用时启用动画；内置兜底：即使主脚本加载/执行失败，页面也不会空白 */
+  (function(){var h=document.documentElement;h.classList.add('js','is-loading');setTimeout(function(){if(h.classList.contains('is-loading')){h.classList.remove('is-loading','js');}},2600);})();
+</script>
+</head>
+<body class="page page--sheet">
+
+<!-- 背景层 -->
+<div class="bg" aria-hidden="true">
+  <span class="bg__grid"></span>
+  <span class="bg__orb bg__orb--1"></span>
+  <span class="bg__orb bg__orb--2"></span>
+  <span class="bg__orb bg__orb--3"></span>
+  <canvas class="bg__stars" id="stars"></canvas>
+  <span class="bg__vignette"></span>
+</div>
+
+<!-- 弹出层背景遮罩 -->
+<div class="sheet-backdrop" aria-hidden="true"></div>
+
+<!-- 转场幕布 -->
+<div class="curtain" data-curtain aria-hidden="true"><span class="curtain__logo">DEV</span></div>
+
+<!-- 顶部导航 -->
+<header class="nav" data-nav-bar>
+  <div class="nav__inner">
+    <a class="brand" href="index.html" data-nav>
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">全品类<em>软件定制</em></span>
+    </a>
+    <button class="nav__toggle" data-menu-toggle aria-controls="nav-links" aria-expanded="false" aria-label="展开导航菜单">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links" data-nav-links aria-label="主导航">
+      <a href="index.html" data-nav>首页</a>
+      <a href="services.html" class="is-active" data-nav>服务能力</a>
+      <a href="contact.html" data-nav>联系方式</a>
+      <a class="nav__cta" href="contact.html" data-nav>聊聊项目</a>
+    </nav>
+  </div>
+  <span class="progress" data-progress aria-hidden="true"></span>
+</header>
+
+<!-- 关闭按钮（返回首页） -->
+<button class="sheet-close" data-back="index.html" aria-label="关闭并返回首页">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  <span>关闭</span>
+</button>
+
+<!-- 弹出内容面板 -->
+<main class="sheet">
+  <span class="sheet__grip" aria-hidden="true"></span>
+
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <p class="eyebrow" data-reveal data-delay="0"><span class="dot" aria-hidden="true"></span>Service Catalog / 服务能力</p>
+      <h1 class="sheet__title" data-reveal data-delay="60"><span data-split>我能为你提供什么</span></h1>
+      <p class="sheet__lead" data-reveal data-delay="120">
+        五个方向覆盖「网页 → 上线 → 移动端」完整链路：从页面设计、代码开发，到服务器部署与安装包输出，
+        由同一人对接，需求不用来回转述。
+      </p>
+      <ul class="chips" data-reveal data-delay="180">
+        <li>电脑 / 手机适配</li>
+        <li>动态展示效果</li>
+        <li>可安装安装包</li>
+        <li>上线部署调试</li>
+        <li>交付源码</li>
+      </ul>
+    </header>
+
+    <section class="services" aria-label="服务详情">
+      <article class="service" data-index="01" id="web" data-reveal data-delay="0">
+        <figure class="service__media" data-tilt>
+          <img class="service__img--web" src="assets/img/service-web.png?v=3" alt="网页制作示例：定制官网、落地页与展示型网页的电脑端与手机端界面" loading="lazy" decoding="async" />
+        </figure>
+        <div class="service__body">
+          <span class="service__no">01 / WEB</span>
+          <h2 class="service__title">网页制作</h2>
+          <p class="service__en">Website Design &amp; Development</p>
+          <p class="service__desc">
+            定制官网、落地页、展示型网页。页面美观适配电脑与手机，可做动态展示效果，满足品牌宣传、产品介绍使用。
+          </p>
+          <ul class="tags">
+            <li>定制官网</li>
+            <li>落地页</li>
+            <li>展示型网页</li>
+            <li>电脑 / 手机适配</li>
+            <li>动态展示效果</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service service--rev" data-index="02" id="deploy" data-reveal data-delay="0">
+        <figure class="service__media" data-tilt>
+          <img class="service__img--deploy" src="assets/img/service-deploy.png?v=3" alt="网站部署示例：服务器配置、域名解析与网站上线调试界面" loading="lazy" decoding="async" />
+        </figure>
+        <div class="service__body">
+          <span class="service__no">02 / DEPLOY</span>
+          <h2 class="service__title">网站部署</h2>
+          <p class="service__en">Server Deploy &amp; Online</p>
+          <p class="service__desc">
+            服务器配置、域名解析、网站上线部署、环境调试。帮你把做好的网站成功发布到互联网，处理上线相关技术问题。
+          </p>
+          <ul class="tags">
+            <li>服务器配置</li>
+            <li>域名解析</li>
+            <li>上线部署</li>
+            <li>环境调试</li>
+            <li>技术问题处理</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service" data-index="03" id="android" data-reveal data-delay="0">
+        <figure class="service__media" data-tilt>
+          <img class="service__img--android" src="assets/img/service-android.png?v=3" alt="安卓 APP 开发示例：安卓原生与跨平台 APP 界面及可安装安装包" loading="lazy" decoding="async" />
+        </figure>
+        <div class="service__body">
+          <span class="service__no">03 / ANDROID</span>
+          <h2 class="service__title">安卓 APP 开发</h2>
+          <p class="service__en">Android Native / Cross-Platform</p>
+          <p class="service__desc">
+            安卓原生 / 跨平台 APP 定制，适合业务工具、商城、展示类应用，打包生成可安装安装包。
+          </p>
+          <ul class="tags">
+            <li>原生 / 跨平台</li>
+            <li>业务工具</li>
+            <li>商城类应用</li>
+            <li>展示类应用</li>
+            <li>APK 安装包</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service service--rev" data-index="04" id="ios" data-reveal data-delay="0">
+        <figure class="service__media" data-tilt>
+          <img class="service__img--ios" src="assets/img/service-ios.png?v=3" alt="苹果 APP 开发示例：iOS 定制界面与 iPhone 设备适配效果" loading="lazy" decoding="async" />
+        </figure>
+        <div class="service__body">
+          <span class="service__no">04 / IOS</span>
+          <h2 class="service__title">苹果 APP 开发</h2>
+          <p class="service__en">iOS App Development</p>
+          <p class="service__desc">
+            iOS 苹果 APP 定制开发，可完成打包 ipa，适配 iPhone 设备。
+          </p>
+          <ul class="tags">
+            <li>iOS 定制开发</li>
+            <li>打包 ipa</li>
+            <li>iPhone 适配</li>
+            <li>真机调试</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service" data-index="05" id="miniapp" data-reveal data-delay="0">
+        <figure class="service__media" data-tilt>
+          <img class="service__img--miniapp" src="assets/img/service-miniapp.png?v=3" alt="微信小程序开发示例：商城、预约、展示与工具类小程序界面" loading="lazy" decoding="async" />
+        </figure>
+        <div class="service__body">
+          <span class="service__no">05 / MINI APP</span>
+          <h2 class="service__title">小程序开发</h2>
+          <p class="service__en">WeChat Mini Program</p>
+          <p class="service__desc">
+            微信小程序定制，商城、预约、展示、工具类小程序均可开发，无需下载，微信直接打开使用。
+          </p>
+          <ul class="tags">
+            <li>微信小程序</li>
+            <li>商城 / 预约</li>
+            <li>展示 / 工具</li>
+            <li>免下载打开</li>
+          </ul>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="cta" data-reveal>
+      <span class="cta__glow" aria-hidden="true"></span>
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Next Step / 下一步</p>
+      <h2 class="cta__title">看完这些，我们<em>聊聊你的项目需求</em>？</h2>
+      <p class="cta__text">
+        说明你想要的类型、参考样式与大致时间，我会给出实现方案、交付内容与报价，能做的直接开工，不能做的也会告诉你原因。
+      </p>
+      <div class="cta__actions">
+        <a class="btn btn--primary btn--lg" href="contact.html" data-nav>
+          <span class="btn__label">聊聊你的项目需求</span>
+          <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="btn btn--ghost" type="button" data-back="index.html">
+          <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H6M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="btn__label">返回首页</span>
+        </button>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <p class="foot__text">© <span data-year>2026</span> 全品类软件定制开发 · 网页制作 / 网站部署 / 安卓 APP / 苹果 APP / 微信小程序</p>
+</footer>
+
+<script src="assets/js/main.js?v=2"></script>
+</body>
+</html>

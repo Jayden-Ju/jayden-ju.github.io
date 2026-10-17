@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#03071a" />
+<meta name="description" content="全品类软件定制开发：网页制作、网站部署、安卓 APP、苹果 APP、微信小程序，一站式定制开发与上线交付。" />
+<title>全品类软件定制开发 · 网页 / 部署 / 安卓 / 苹果 / 小程序</title>
+<link rel="stylesheet" href="assets/css/style.css?v=3" />
+<script>
+  /* 仅在脚本可用时启用动画；内置兜底：即使主脚本加载/执行失败，页面也不会空白 */
+  (function(){var h=document.documentElement;h.classList.add('js','is-loading');setTimeout(function(){if(h.classList.contains('is-loading')){h.classList.remove('is-loading','js');}},2600);})();
+</script>
+</head>
+<body class="page page--home">
+
+<!-- 背景层 -->
+<div class="bg" aria-hidden="true">
+  <span class="bg__grid"></span>
+  <span class="bg__orb bg__orb--1"></span>
+  <span class="bg__orb bg__orb--2"></span>
+  <span class="bg__orb bg__orb--3"></span>
+  <canvas class="bg__stars" id="stars"></canvas>
+  <span class="bg__vignette"></span>
+</div>
+
+<!-- 转场幕布 -->
+<div class="curtain" data-curtain aria-hidden="true"><span class="curtain__logo">DEV</span></div>
+
+<!-- 顶部导航 -->
+<header class="nav" data-nav-bar>
+  <div class="nav__inner">
+    <a class="brand" href="index.html" data-nav>
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">全品类<em>软件定制</em></span>
+    </a>
+    <button class="nav__toggle" data-menu-toggle aria-controls="nav-links" aria-expanded="false" aria-label="展开导航菜单">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links" data-nav-links aria-label="主导航">
+      <a href="index.html" class="is-active" data-nav>首页</a>
+      <a href="services.html" data-nav>服务能力</a>
+      <a href="contact.html" data-nav>联系方式</a>
+      <a class="nav__cta" href="contact.html" data-nav>聊聊项目</a>
+    </nav>
+  </div>
+  <span class="progress" data-progress aria-hidden="true"></span>
+</header>
+
+<main class="hero" data-pointer-glow>
+  <span class="hero__glow" aria-hidden="true"></span>
+
+  <div class="hero__inner">
+    <p class="hero__badge" data-reveal data-delay="0">
+      <span class="dot" aria-hidden="true"></span>
+      网页 · 部署 · 安卓 · 苹果 · 小程序 &nbsp;|&nbsp; 一站式定制交付
+    </p>
+
+    <h1 class="hero__title" data-reveal data-delay="60">
+      <span class="hero__line"><span data-split>全品类软件</span></span>
+      <span class="hero__line hero__line--accent"><span data-split>定制开发</span></span>
+    </h1>
+
+    <p class="hero__sub" data-reveal data-delay="120">
+      从一张页面到一个能上线的产品，全部由我一人负责到底。<br />
+      需求沟通、界面设计、代码开发、打包上线，电脑与手机端同步适配，交付出可直接使用的成品。
+    </p>
+
+    <div class="hero__actions" data-reveal data-delay="180">
+      <a class="btn btn--primary" href="services.html" data-nav data-sheet-link>
+        <span class="btn__label">了解我能为你提供什么</span>
+        <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn btn--ghost" href="contact.html" data-nav>
+        <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16v11H4z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span class="btn__label">查看联系方式</span>
+      </a>
+    </div>
+
+    <ul class="hero__stats" data-reveal data-delay="240">
+      <li class="stat">
+        <span class="stat__num"><span data-count="5">0</span><i>大方向</i></span>
+        <span class="stat__label">网页 / 部署 / 安卓 / 苹果 / 小程序</span>
+      </li>
+      <li class="stat">
+        <span class="stat__num"><span data-count="100" data-suffix="%">0</span><i>源码交付</i></span>
+        <span class="stat__label">交付源码、说明文档与上线指引</span>
+      </li>
+      <li class="stat">
+        <span class="stat__num"><span data-count="24" data-suffix="h">0</span><i>内回复</i></span>
+        <span class="stat__label">微信 / QQ / 邮箱随时沟通需求</span>
+      </li>
+    </ul>
+  </div>
+
+  <a class="hero__scroll" href="services.html" data-nav data-sheet-link>
+    <span>向下查看服务详情</span>
+    <span class="hero__scroll-line" aria-hidden="true"></span>
+  </a>
+</main>
+
+<footer class="foot">
+  <p class="foot__text">© <span data-year>2026</span> 全品类软件定制开发 · 网页制作 / 网站部署 / 安卓 APP / 苹果 APP / 微信小程序</p>
+</footer>
+
+<script src="assets/js/main.js?v=2"></script>
+</body>
+</html>
